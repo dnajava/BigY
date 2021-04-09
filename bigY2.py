@@ -11,6 +11,7 @@ def make_dictionary(fname_p: str):
             csv_reader = reader(read_obj)
             for k in csv_reader:
                 r += 1
+                tmp_dict["TOT"] += 1
                 # tmp_dict[k[6]] += 1   OR
                 if k[6] == "A":
                     tmp_dict["A"] += 1
@@ -22,7 +23,6 @@ def make_dictionary(fname_p: str):
                     tmp_dict["G"] += 1
                 elif k[6] == "?":
                     tmp_dict["?"] += 1
-                tmp_dict["TOT"] += 1
     except (IOError, OSError) as err:
         print(err)
     finally:

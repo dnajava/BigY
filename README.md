@@ -4,4 +4,4 @@ Basic very easy tools to beginners. Feel free to use these and learn how to hand
 
 BigY1 counts how many derived to ? there are in csv-file and percentages.
 
-BigY2 counts all A,C,G,T and other how many occurrences there are and percentages.
+BigY2 counts all A,C,G,T and other and how many occurrences there are each and percentages.

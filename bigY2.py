@@ -28,6 +28,7 @@ def make_dictionary(fname_p: str):
     finally:
         if read_obj is not None:
             read_obj.close()
+    tmp_dict["TOTAL"] -= 1                  # Remove first header line from count
     return tmp_dict
 
 if __name__ == '__main__':

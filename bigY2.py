@@ -3,11 +3,6 @@ __date__ = "$10.4.2021 02:08:00$"
 
 from csv import reader
 
-__author__ = "Ilpo Kantonen"
-__date__ = "$10.4.2021 01:48:00$"
-
-from csv import reader
-
 def make_dictionary(fname_p: str):
     tmp_dict = {"A": 0, "T": 0, "C": 0, "G": 0, "?": 0, "TOTAL": 0}
     r, v = 0, 0

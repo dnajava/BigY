@@ -4,7 +4,7 @@ __date__ = "$9.4.2021 22:24:00$"
 from csv import reader
 
 def make_dictionary(fname_p: str):
-    tmp_dict = {"A": 0, "T": 0, "C": 0, "G": 0, "?": 0, "TOT": 0}
+    tmp_dict = {"A": 0, "T": 0, "C": 0, "G": 0, "?": 0, "TOT": 0}   # Note that there can be double letters too.
     r, v = 0, 0
     try:
         with open(fname_p, 'r') as read_obj:

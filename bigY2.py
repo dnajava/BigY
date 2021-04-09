@@ -35,8 +35,6 @@ if __name__ == '__main__':
 
     for f in files:
         filen = path + f
-        result = handleBigY(filen)
-        print(result[0], 'lines, which', result[1], 'fuzzy. Percentage ', 100 * result[1] / result[0] )
         dic = make_dictionary(filen)
         for di in dic:
             print(di, dic[di], 'pieces and percentage', 100 * dic[di] / dic["TOT"])

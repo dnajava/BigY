@@ -1,5 +1,5 @@
 __author__ = "Ilpo Kantonen"
-__date__ = "$9.4.2021 22:24:00$"
+__date__ = "$10.4.2021 02:08:00$"
 
 from csv import reader
 

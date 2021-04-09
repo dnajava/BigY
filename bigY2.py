@@ -38,7 +38,7 @@ if __name__ == '__main__':
             for di in dic:
                 if di != "TOTAL":
                     print(di, dic[di], 'pieces and percentage', 100 * dic[di] / dic["TOTAL"])
-            print('TOTAL', dic["TOTAL"], 'pieces and percentage', 100 * dic[di] / dic["TOTAL"])
+            print('TOTAL', dic["TOTAL"], 'pieces and percentage', 100 * dic["TOTAL"] / dic["TOTAL"])
         else:
             print('There were no A, G, C, T or such in Big Y csv file!')
         print()

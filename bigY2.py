@@ -3,8 +3,6 @@ __date__ = "$9.4.2021 22:24:00$"
 
 from csv import reader
 
-alleles_dict = {"A": 0, "T": 0, "C": 0, "G": 0}
-
 def handleBigY(fname_p: str):
     r, v = 0, 0
     try:

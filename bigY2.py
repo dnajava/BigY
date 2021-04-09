@@ -38,3 +38,4 @@ if __name__ == '__main__':
         dic = make_dictionary(filen)
         for di in dic:
             print(di, dic[di], 'pieces and percentage', 100 * dic[di] / dic["TOT"])
+            print()
